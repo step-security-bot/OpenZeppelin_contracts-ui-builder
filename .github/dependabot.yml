@@ -1,0 +1,86 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /docs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/adapter-evm
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/adapter-midnight
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/adapter-solana
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/adapter-stellar
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/builder
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/builder/src/export/templates/typescript-react-vite
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/react-core
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/renderer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/storage
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/styles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/types
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/ui
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/utils
+    schedule:
+      interval: daily
